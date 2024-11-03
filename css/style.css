@@ -38,6 +38,22 @@ button {
   padding-right: 15px;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 320px) {
+  .container {
+width: 320px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+width: 768px;
+  }
+}@media screen and (min-width: 1158px) {
+  .container {
+width: 1158px;
+  }
+}
+
 /*-------------------header---------------------*/
 .header {
   padding-top: 25, 5px;
@@ -57,6 +73,27 @@ button {
   align-items: center;
 }
 
+@media screen and (max-width: 767px) {
+  .header-navigation {
+padding-top: 16px;
+padding-bottom: 16px;
+  }
+
+.header-menu-list, .header-con-list {
+  display: none;
+  }
+}
+
+  @media screen and (max-width: 1157px) {
+  .header-navigation {
+padding-top: 25px;
+padding-bottom: 25px;
+  }
+.header-menu-list, .header-con-list {
+  display: none;
+  }
+}
+
 .header-menu-list {
   display: flex;
   align-items: center;
@@ -64,6 +101,9 @@ button {
   margin-right: 166px;
   padding: 24px 0;
 }
+
+
+
 
 .header-con-list {
   display: flex;
@@ -707,7 +747,7 @@ button {
 }
 
 /*-------------------backgrop---------------------*/
-
+ 
 .backdrop {
   width: 100%;
   height: 100%;
@@ -723,9 +763,11 @@ button {
 
 .is-open {
   opacity: 1;
-  visibility: visible;
+  visibility: hidden;
   padding-inline-end: auto;
+  pointer-events: auto;
 }
+
 
 .modal {
   width: 408px;
@@ -810,11 +852,6 @@ button {
   text-align: center;
 }
 
-.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
 
 .modal-field {
   margin-bottom: 8px;
