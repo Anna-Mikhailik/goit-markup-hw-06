@@ -870,33 +870,6 @@ button {
   flex-direction: column;
 }
 
-@media screen and (max-width: 1157px) {
-.footer {
-  padding-top: 96px;
-  padding-bottom: 96px;
-}
-}
-
-@media screen and (max-width: 767px) {
-.footer {
-padding-top: 96px;
-padding-bottom: 96px;
-display: flex;
-flex-wrap: wrap;
-}
-.footer-text {
-  margin-right: 0;
-  align-content: center;
-}
-
-.footer-soc-list {
-  margin-bottom: 16px;
-}
-}
-
-/*-------------------footer---------------------*/
-/*--------------------cередина блока from-------*/
-
 .footer-form {
   width: 453px;
   height: 80px;
@@ -943,6 +916,109 @@ flex-wrap: wrap;
 
 
 
+@media screen and (max-width: 1157px) {
+.footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.footer-form {
+  width: 100%;
+  
+}
+
+.footer-logo {
+
+}
+
+
+
+.footer .container {
+  flex-wrap: wrap;
+}
+
+.footer-text {
+  margin-right: 72px;
+  margin-bottom: 72px;
+}
+
+.footer-soc-list {
+
+}
+
+.form {
+  gap: 72px;              
+
+}
+
+
+.footer-soc {
+ 
+}
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+
+.footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.footer-form {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.footer .container {
+  flex-direction: column; 
+  align-items: center;    
+}
+
+.footer-text {
+  margin-right: 0;        
+  margin-bottom: 72px;    
+}
+
+.footer-soc-list {
+  gap: 8px;               
+  margin-bottom: 24px; 
+  justify-content: center;
+}
+
+.form {
+  gap: 16px;              
+  width: 100%;            
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.footer-soc {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;  
+  text-align: center;  
+}
+}
+
+/*-------------------footer---------------------*/
 
 
 /*-------------------backgrop---------------------*/
