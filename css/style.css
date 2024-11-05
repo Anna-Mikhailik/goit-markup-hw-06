@@ -204,6 +204,9 @@ width: 1158px;
   /*.header-navigation {
 padding-bottom: 16px;
   }*/
+  .header-con {
+    padding-left: 0px;
+  }
 
 .header-menu-item, .header-con-item {
   display: none;
