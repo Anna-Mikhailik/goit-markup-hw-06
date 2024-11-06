@@ -591,6 +591,11 @@ padding-bottom: 16px;
     line-height: 111%;
     text-align: center;
   }
+
+  .features-soc {
+    display: contents;
+  }
+  
   /*.features-item {
     flex-basis: calc((100% - 72px) / 1);
   }*/
