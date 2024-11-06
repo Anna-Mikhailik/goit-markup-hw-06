@@ -537,9 +537,6 @@ padding-bottom: 16px;
   .features-item {
     flex-basis: calc((100% - 72px) / 4);
   }
-  .features-soc {
-    display: contents;
-  }
 }
 
 @media screen and (max-width: 1157px) {
